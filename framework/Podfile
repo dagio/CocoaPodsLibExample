@@ -12,3 +12,8 @@ target 'SampleFramework' do
   project 'SampleFramework/SampleFramework.xcodeproj'
   pod 'CocoaLumberjack'
 end
+
+target 'SampleFramework2' do
+  project 'SampleFramework2/SampleFramework2.xcodeproj'
+  pod 'MDWamp'
+end

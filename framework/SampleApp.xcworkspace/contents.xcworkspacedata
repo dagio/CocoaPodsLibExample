@@ -8,6 +8,9 @@
       location = "group:SampleFramework/SampleFramework.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:SampleFramework2/SampleFramework2.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>

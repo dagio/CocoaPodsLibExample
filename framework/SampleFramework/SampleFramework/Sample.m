@@ -11,6 +11,7 @@
 #define ddLogLevel DDLogLevelAll
 
 @import CocoaLumberjack;
+@import SampleFramework2;
 
 @implementation Sample
 
@@ -20,6 +21,9 @@
     [DDLog addLogger:[DDTTYLogger sharedInstance]];
   });
   DDLogInfo(@"Test");
+
+  Foo *foo = [[Foo alloc] init];
+  DDLogInfo([foo sayHello]);
 }
 
 @end
